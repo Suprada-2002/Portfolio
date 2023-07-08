@@ -4,6 +4,7 @@ import Icon from "@iconify/svelte"
     let frontend = ["FrontEnd : ", "React.js", "Svelte.js/Kit", "Next.js", ".NET Core"];
     let backend = ["BackEnd : ","MySQL", "PostgreSQL", "Firebase", "Supabase"];
     let lang = ["Languages : ","C", "C++","C#","Java", "Python", "JavaScript", "HTML5", "CSS"]
+    let editors = ["Editors ; ", "Visual Studio Code", "VIM", "Nano"]
 
     let techstackFirst = ["logos:react","logos:firebase","devicon:materialui","logos:visual-studio-code", "logos:figma" ]
     let techstackSecond = ["skill-icons:dotnet", "logos:angular-icon", "logos:mysql", "logos:bootstrap", "logos:visual-studio"]
@@ -11,7 +12,7 @@ import Icon from "@iconify/svelte"
 </script>
 
 <div class="container">
-    <div class="frontend skills">
+    <div class="skills">
         <ul>
         {#each frontend as name}
         <li>{name}</li>
@@ -19,7 +20,7 @@ import Icon from "@iconify/svelte"
         </ul>
     </div>
 
-    <div class="backend skills">
+    <div class="skills">
         <ul>
             {#each backend as name}
             <li>{name}</li>
@@ -27,9 +28,17 @@ import Icon from "@iconify/svelte"
             </ul>
     </div>
 
-    <div class="lang skills">
+    <div class="skills">
         <ul>
             {#each lang as name}
+            <li>{name}</li>
+            {/each}
+            </ul>
+    </div>
+
+    <div class="skills">
+        <ul>
+            {#each editors as name}
             <li>{name}</li>
             {/each}
             </ul>

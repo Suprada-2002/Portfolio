@@ -13,3 +13,15 @@
 }
 
 /*hsl(0, 0%, 10%);*/
+@media screen and (max-width: 1000px){
+    .container{
+        width: 70vw;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .container{
+        width: auto;
+        padding: 0px 10px;
+    }
+}

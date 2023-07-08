@@ -63,4 +63,7 @@
   .footer-links{
     margin: 20px 0px;
   }
+  .content{
+    margin: 10px 0px;
+  }
 </style>
