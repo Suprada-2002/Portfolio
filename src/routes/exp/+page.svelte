@@ -19,10 +19,10 @@
             time:"Jan 2022 - Apr 2022",
             skills: "Power BI, Data Visualization, Data Cleaning ",
             list: [
-                "Used React.js and Ext.js for UI",
-                "Java using MVC architecture",
-                "spring boot and maven",
-                "exsential team building skill"
+                "Data Visualization using PowerBI",
+                "Introduction to Machine Learning ",
+                "Numpy and Python",
+                "Leadership skill"
             ]
         }
     ]
@@ -32,8 +32,8 @@
 
     {#each expList as {name, company ,skills, time, list}}
     <div class="exp">
-        <p><span class="title">{name}</span></p>
-        <p>{company} ( <i>{time} </i> )</p>
+        <p><span>{name}</span></p>
+        <p class="blue">{company} ( <i>{time} </i> )</p>
         <p>Skills : {skills}</p>
             {#each list as li}
             <li>{li}</li>
@@ -54,12 +54,12 @@
         padding-bottom: 10px;
         font-weight: 300;
     }
-    .title{
+    span{
         font-weight: 400;
-        border-bottom: 2px solid white;
+        color: orange;
+        border-bottom: 2px solid blue;;
     }
     i{
         font-size: 10px;
     }
-
 </style>

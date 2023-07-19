@@ -1,14 +1,14 @@
 <script>
 import Icon from "@iconify/svelte"
 
-    let frontend = ["FrontEnd : ", "React.js  ", "Svelte.js/Kit  ", "Next.js  ", ".NET Core  "];
-    let backend = ["BackEnd : ","MySQL  ", "PostgreSQL  ", "Firebase  ", "Supabase  "];
-    let lang = ["Languages : ","C  ", "C++  ","C#  ","Java  ", "Python  ", "JavaScript  ", "HTML5  ", "CSS  "]
-    let editors = ["Editors ; ", "Visual Studio Code  ", "VIM  ", "Nano "]
+    let frontend = ["FrontEnd : ", "React.js,  ", "Svelte.js/Kit,  ", "Next.js,  ", ".NET Core  "];
+    let backend = ["BackEnd : ","MySQL,  ", "PostgreSQL,  ", "Firebase,  ", "Supabase  "];
+    let lang = ["Languages : ","C,  ", "C++,  ","C#,  ","Java,  ", "Python,  ", "JavaScript,  ", "HTML5,  ", "CSS  "]
+    let editors = ["Editors : ", "Visual Studio Code,  ", "VIM,  ", "Nano "]
 
     let techstackFirst = ["logos:react","logos:firebase","devicon:materialui","logos:visual-studio-code", "logos:figma" ]
     let techstackSecond = ["skill-icons:dotnet", "logos:angular-icon", "logos:mysql", "logos:bootstrap", "logos:visual-studio"]
-    let techstackThird = ["vscode-icons:file-type-maven", "logos:java", "devicon:spring-wordmark", "devicon:eclipse"]
+    let techstackThird = ["vscode-icons:file-type-maven", "logos:java", "devicon:spring-wordmark","logos:tailwindcss-icon", "devicon:eclipse"]
 </script>
 
 <div class="container">
@@ -52,7 +52,7 @@ import Icon from "@iconify/svelte"
         </div>
         <div class="three">
             {#each techstackThird as name}
-            <Icon icon={name} width="40px" />
+            <Icon icon={name} width="35px" />
             {/each}
     </div>
     </div>

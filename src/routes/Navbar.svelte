@@ -1,4 +1,5 @@
 <script>
+     import { page } from "$app/stores";
     let navs = [
         {
             name: "About Me",
@@ -17,13 +18,14 @@
             href: "/exp"
         }
     ]
+    $: routeId = $page.url.pathname;
 </script>
 
 <div class="container">
 
     <ul>
         {#each navs as {name, href}}
-        <li><a {href}>{name}</a></li>
+        <li><a {href}  class:active={routeId == href} >{name}</a></li>
         {/each}
     </ul>
 
@@ -43,7 +45,8 @@
     margin: 0px;
    
  }
- a:hover {
-    border-bottom: 3px solid #111;
+  .active{
+    
+    border-bottom: 2px solid blue; 
   }
   </style>
