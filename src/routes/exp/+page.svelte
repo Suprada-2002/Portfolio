@@ -56,8 +56,7 @@
     }
     span{
         font-weight: 400;
-        color: orange;
-        border-bottom: 2px solid blue;;
+        border-bottom: 2px solid blue;
     }
     i{
         font-size: 10px;

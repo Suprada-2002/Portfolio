@@ -3,7 +3,7 @@
     let links = [
         {
           icon: "skill-icons:github-dark",
-          href: "/"
+          href: "https://github.com/Suprada-2002?tab=repositories"
         },{
             icon: "skill-icons:linkedin",
             href: "/"
@@ -31,7 +31,7 @@
         </div>
         <div class="content">
             <p>Made with 💝 and Svelte</p>
-            <p>Open Source | @SupradaTripathy | KISS</p>
+            <p><a href="https://en.wikipedia.org/wiki/Open_source">Open Source</a> | @SupradaTripathy | <a href="https://en.wikipedia.org/wiki/KISS_principle">KISS</a></p>
         </div>
     </footer>
 
@@ -58,7 +58,11 @@
     }
 
   a:hover {
-    background-color: #111;
+    color: orange;
+  }
+  a{
+    text-decoration: none;
+    cursor: pointer;
   }
   .footer-links{
     margin: 20px 0px;
