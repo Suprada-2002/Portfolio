@@ -1,10 +1,10 @@
 <script>
 import Icon from "@iconify/svelte"
 
-    let frontend = ["FrontEnd : ", "React.js", "Svelte.js/Kit", "Next.js", ".NET Core"];
-    let backend = ["BackEnd : ","MySQL", "PostgreSQL", "Firebase", "Supabase"];
-    let lang = ["Languages : ","C", "C++","C#","Java", "Python", "JavaScript", "HTML5", "CSS"]
-    let editors = ["Editors ; ", "Visual Studio Code", "VIM", "Nano"]
+    let frontend = ["FrontEnd : ", "React.js  ", "Svelte.js/Kit  ", "Next.js  ", ".NET Core  "];
+    let backend = ["BackEnd : ","MySQL  ", "PostgreSQL  ", "Firebase  ", "Supabase  "];
+    let lang = ["Languages : ","C  ", "C++  ","C#  ","Java  ", "Python  ", "JavaScript  ", "HTML5  ", "CSS  "]
+    let editors = ["Editors ; ", "Visual Studio Code  ", "VIM  ", "Nano "]
 
     let techstackFirst = ["logos:react","logos:firebase","devicon:materialui","logos:visual-studio-code", "logos:figma" ]
     let techstackSecond = ["skill-icons:dotnet", "logos:angular-icon", "logos:mysql", "logos:bootstrap", "logos:visual-studio"]
@@ -13,35 +13,27 @@ import Icon from "@iconify/svelte"
 
 <div class="container">
     <div class="skills">
-        <ul>
         {#each frontend as name}
-        <li>{name}</li>
+        {name}
         {/each}
-        </ul>
     </div>
 
     <div class="skills">
-        <ul>
             {#each backend as name}
-            <li>{name}</li>
+            {name}
             {/each}
-            </ul>
     </div>
 
     <div class="skills">
-        <ul>
             {#each lang as name}
-            <li>{name}</li>
+            {name}
             {/each}
-            </ul>
     </div>
 
     <div class="skills">
-        <ul>
             {#each editors as name}
-            <li>{name}</li>
+            {name}
             {/each}
-            </ul>
     </div>
 </div>
 
@@ -73,21 +65,11 @@ import Icon from "@iconify/svelte"
     }
 
     .skills{
+        background-color: #111;
         border: 10px;
         margin: 20px 0px;
         font-weight: 300;
-    }
-    ul{
-        background-color: #111;
-        list-style: none;
-        display: flex;
-        gap: 10px;
-        padding: 15px 10px;
-    }
-    li{
-        background-color: #111;
-        margin: 0px;
-        padding: 0px;
+        padding: 20px 0px;
     }
     .tech-stack {
         display: flex;
