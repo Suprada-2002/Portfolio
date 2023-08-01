@@ -11,11 +11,11 @@
             icon: "logos:google-gmail",
             href: "/"
         },{
-            icon:"logos:chrome-web-store",
-            href:"/"
-        },{
             icon:"skill-icons:instagram",
             href: "/"
+        },{
+            icon:"twemoji:bookmark-tabs",
+            href:"https://drive.google.com/file/d/1-JnEvQs4NYwPhIIAuqKwhOM4mbit63EC/view?usp=sharing"
         }
 
     ]

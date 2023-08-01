@@ -1,3 +1,3 @@
-## My Portfolio website
+## My Portfolio Website
 
 Made with 💝 and Svelte

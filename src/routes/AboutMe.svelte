@@ -17,7 +17,7 @@
 </p>
 <p> If you want to collborate, feel free to reach out to me.</p>
 
-<a href="/"><Icon icon="mdi:resume" />Resume</a>
+<a href="https://drive.google.com/file/d/1-JnEvQs4NYwPhIIAuqKwhOM4mbit63EC/view?usp=sharing">Resume</a>
 
 </div>
 
@@ -32,5 +32,7 @@
         font-weight: 300;
         text-align: center;
         font-size: 15px;
+        color: hsl(0, 0%, 80%);
+        text-decoration: underline;
     }
 </style>
